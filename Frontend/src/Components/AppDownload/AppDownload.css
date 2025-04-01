@@ -1,0 +1,35 @@
+.container{
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+    margin: 103px auto;
+}
+.images{
+    margin-top: 30px;
+    gap: 26px;
+    justify-content: center;
+    display: flex;
+}
+.images img{
+    width: 175px;
+    gap: 10px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.images img:hover{
+    height: 62px;
+    width: 180px;
+    
+}
+@media (max-width:400px){
+    .images img {
+      width: 135px;
+    }
+    .images img:hover{
+        height: 62px;
+        width: 138px;
+        transition: 0.5s;
+    }
+
+}
